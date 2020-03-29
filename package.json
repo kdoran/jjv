@@ -25,5 +25,6 @@
     "pretest": "./node_modules/.bin/jshint -e 'js,json' ./lib ./test",
     "test": "./node_modules/.bin/mocha -b -R spec ./test"
   },
-  "main": "index.js"
+  "main": "index.js",
+  "module": "./lib/jjv.esm.js"
 }
